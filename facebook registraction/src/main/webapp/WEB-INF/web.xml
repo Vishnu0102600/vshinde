@@ -3,6 +3,15 @@
   <display-name>facebook registraction</display-name>
   <welcome-file-list>
     <welcome-file>SignUp.jsp</welcome-file>
-   
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Forget</display-name>
+    <servlet-name>Forget</servlet-name>
+    <servlet-class>com.logilite.facebookregistraction.LogIn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Forget</servlet-name>
+    <url-pattern>/Forget</url-pattern>
+  </servlet-mapping>
 </web-app>

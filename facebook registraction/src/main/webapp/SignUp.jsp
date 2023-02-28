@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<center>
+	<center>
 		<h1 style="color: blue;">SignUp</h1>
 		<h2>create a new account.</h2>
 		<p>It's quick and easy</p>
@@ -15,26 +15,27 @@
 		<form action="SignUp" method="post">
 			<table>
 				<tr>
-					<td><input type="text" placeholder="Enter name" name="name"
-						required></td>
-					<td><input type="text" placeholder=" Enter surname" name="surname"
-						required></td>
+					<td><input type="text" placeholder="Enter email
+					address"
+						name="email" required></td>
 				</tr>
-
-				<tr>
-					<td><input type="text"
-						placeholder="Enter email
-					address" name="email"
-						required></td>
-				</tr>
-
 				<tr>
 					<td><input type="password" placeholder="New password"
 						name="password" required></td>
 				</tr>
+				<tr>
+					<td><input type="text" placeholder="Enter name" name="name"
+						required></td>
+					<td><input type="text" placeholder=" Enter surname"
+						name="surname" required></td>
+				</tr>
+
+
+
 
 				<tr>
-					<td>Date of birth: <br> <input type="DOB" name="DOB"required></td>
+					<td>Date of birth: <br> <input type="DOB" name="DOB"
+						required></td>
 				</tr>
 			</table>
 			Gender: <input type="radio" id="female" name="gender" value="Female">
